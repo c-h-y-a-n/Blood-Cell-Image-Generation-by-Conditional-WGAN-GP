@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Large data (never commit datasets!)
+data/
+datasets/
+*.csv
+*.parquet
+*.zip
+*.h5
+*.npy
+
+# Editors & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
