@@ -23,7 +23,6 @@ Synthetic augmentation via GANs can improve downstream classifier performance on
 
 ## Results
 - Final mean per-class FID: ~110 (computed with 2k real + 2k generated per class)  
-- Downstream: macro-F1 lift on rare classes after augmentation (see notebook for details)
 
 ### Per-class FID (epoch 120)
 | Class              | FID    |
