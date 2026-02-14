@@ -24,3 +24,7 @@ datasets/
 Thumbs.db
 .vscode/
 .idea/
+
+# TensorBoard logs
+runs/
+*.tfevents.*
