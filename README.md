@@ -62,4 +62,15 @@ Balanced generated grids (8 images per class, fixed seed):
 ## How to Run
 ```bash
 pip install -r requirements.txt
-python train.py --resume
+python train.py --data_dir="path/to/dataset" [--resume]
+```
+- `--epochs` to adjust number of epochs to run
+- `--batch_size` to adjust batch size
+- `--lr` to adjust learning rate
+- `--z_dim` to adjust latent dimension for generator
+- `--critic_step` to adjust the number of critic step before one generator step
+- `--lambda_gp` to adjust the lambda for gradient penalty
+- `--embed_size` to adjust the dimension of class embedding for the generator
+- `--adam_beta_1_c`, `--adam_beta_1_g`, `--adam_beta_2` to adjust betas for Adam optimizer
+- `--checkpoint_path`, `--log_dir`, `--data_dir` to specify path for checkpoint, SummaryWriter log, and Dataset
+- `--seed` to adjust the random seed used
