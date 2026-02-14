@@ -1,5 +1,10 @@
 # Conditional WGAN-GP for Blood Cell Image Synthesis
 
+**GitHub Account:** [@c-h-y-a-n](https://github.com/c-h-y-a-n)  
+**Verification:** This GitHub account and the entire repository belong to the applicant whose full name and email address are officially submitted in the UT Austin MSAI application.
+I confirm that I am the sole author and maintainer of this project.
+
+## Overview
 Generates synthetic blood cell images to address class imbalance in hematology datasets using conditional WGAN-GP.
 
 ## Motivation
