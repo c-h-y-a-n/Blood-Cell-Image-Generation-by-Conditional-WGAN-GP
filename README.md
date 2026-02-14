@@ -56,7 +56,6 @@ Balanced generated grids (8 images per class, fixed seed):
 ## Limitations
 - Persistent blurriness on granules and boundaries  
 - FID variance due to small per-class sample size (~2k)  
-- Rare classes still under-represented
 
 ## Future Work
 - Add residual blocks + perceptual loss  
