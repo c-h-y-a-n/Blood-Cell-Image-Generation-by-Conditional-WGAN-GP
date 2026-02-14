@@ -20,6 +20,7 @@ Synthetic augmentation via GANs can improve downstream classifier performance on
 - Optimizer: Adam (lr=1e-4, β₁=0 (Critic)/ 0.5 (Generator), β₂=0.9)  
 - Gradient penalty λ=10  
 - Trained for 120 epochs
+- Final model backed up in [bloodcell_wgan_gp_ckpt.pth](bloodcell_wgan_gp_ckpt.pth)
 
 ## Results
 - Final mean per-class FID: ~110 (computed with 2k real + 2k generated per class)  
@@ -41,13 +42,16 @@ Synthetic augmentation via GANs can improve downstream classifier performance on
 Balanced generated grids (8 images per class, fixed seed):
 
 **Epoch 30** (early, heavy mode collapse)  
-![epoch_30](figures/balanced_grid_epoch_30.png)
+![epoch_30](figures/images/generated_cell_step_30.png)
 
-**Epoch 70** (improved diversity, still blurry)  
-![epoch_70](figures/balanced_grid_epoch_70.png)
+**Epoch 60** (improved diversity, still blurry)  
+![epoch_60](figures/images/generated_cell_step_60.png)
 
-**Epoch 100** (final, best sharpness)  
-![epoch_100](figures/balanced_grid_epoch_100.png)
+**Epoch 90** (best sharpness)  
+![epoch_90](figures/images/generated_cell_step_90.png)
+
+**Epoch 120** (final)  
+![epoch_120](figures/images/generated_cell_step_120.png)
 
 ## Limitations
 - Persistent blurriness on granules and boundaries  
