@@ -81,5 +81,6 @@ python train.py --data_dir="path/to/dataset" [--resume]
 - `--embed_size` to adjust the dimension of class embedding for the generator
 - `--adam_beta_1_c`, `--adam_beta_1_g`, `--adam_beta_2` to adjust betas for Adam optimizer
 - `--checkpoint_path`, `--log_dir`, `--data_dir` to specify path for checkpoint, SummaryWriter log, and Dataset
+- `--resume` to resume from last checkpoint
 - `--seed` to adjust the random seed used
 - Spacial Note: one corrupted image in the dataset have to be removed before start running (PBC_dataset_normal_DIB/neutrophil/.DS_169665.jpg)
